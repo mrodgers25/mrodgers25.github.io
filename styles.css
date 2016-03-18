@@ -1,3 +1,67 @@
 body {
-  background: blue;
+  background: white;
 }
+
+p.blocktext1 {
+  text-align: center;
+}
+
+.credit {
+  text-align: center;
+  font-size: 75%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol {
+  color: white;
+  background-image: url("abstract-background-example.png");
+}
+
+#brewtable {
+  display: table;
+  color: black;
+  text-align: center;
+}
+
+table tr {
+  border-style: groove;
+}
+
+td.tab1 {
+  background-color: red;
+  color: white;
+}
+td.tab2 {
+  background-color: green;
+  color: white;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 25px;
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 75%;
+    background-color: #90EE90;
+  }
+  .project-name {
+    font-size: 75%;
+  }
+  .project-tagline{
+    font-size: 75%;
+  }
+
+}
+
